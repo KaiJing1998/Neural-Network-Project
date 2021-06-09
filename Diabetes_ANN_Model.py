@@ -65,8 +65,8 @@ model.compile(optimizer='sgd',
               metrics=['accuracy'])
 
 # Train the model by using the fit method on the training data, and train it in batch sizes of 57, with 1000 epochs.
-# Give the model validation data to see how well the model is performing by splitting the training data into 20%
-# validation.
+# Give the model validation data to see how well the model is performing by splitting the training data into 20% validation.
+
 
 # Batch - Total number of training examples present in a single batch
 # Epoch - The number of iterations when an ENTIRE dataset is passed forward and backward through the neural network only ONCE.
