@@ -75,7 +75,7 @@ hist = model.fit(X_train, y_train,
                  batch_size=57, epochs=1000, validation_split=0.3)
 
 # visualize the training loss and the validation loss to see if the model is overfitting
-plt.plot(hist.history['loss'])
+plt.plot(hist.history['loss'],"yellow")
 plt.plot(hist.history['val_loss'])
 plt.title('Model loss')
 plt.ylabel('Loss')
@@ -84,7 +84,7 @@ plt.legend(['Train', 'Test'], loc='upper right')
 plt.show()
 
 # visualize the training accuracy and the validation accuracy to see if the model is overfitting
-plt.plot(hist.history['accuracy'])
+plt.plot(hist.history['accuracy'],"#EC740A")
 plt.plot(hist.history['val_accuracy'])
 plt.title('Model accuracy')
 plt.ylabel('Accuracy')
